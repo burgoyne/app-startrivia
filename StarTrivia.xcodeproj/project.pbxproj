@@ -18,6 +18,7 @@
 		8B9279FD214C2E4D0030F063 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9279FC214C2E4D0030F063 /* BlackBgView.swift */; };
 		8B927A00214C2ED00030F063 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9279FF214C2ED00030F063 /* Constants.swift */; };
 		8B927A03214C363B0030F063 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B927A02214C363B0030F063 /* PersonApi.swift */; };
+		8BFD25F821541AB200E693C7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD25F721541AB200E693C7 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8B9279FC214C2E4D0030F063 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		8B9279FF214C2ED00030F063 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B927A02214C363B0030F063 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		8BFD25F721541AB200E693C7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		8B9279F9214C26A70030F063 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8BFD25F721541AB200E693C7 /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFD25F821541AB200E693C7 /* Person.swift in Sources */,
 				8B9279E2214C241D0030F063 /* SelectPersonVC.swift in Sources */,
 				8B9279E0214C241D0030F063 /* AppDelegate.swift in Sources */,
 				8B9279FD214C2E4D0030F063 /* BlackBgView.swift in Sources */,
