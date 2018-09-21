@@ -22,9 +22,9 @@ class PersonApi {
                 return
             }
             guard let data = response.data else { return completion(nil) }
+            let jsonDecoder = JSONDecoder()
             do {
-                let json = try JSON(data: data)
-                let person = self.parsePersonSwifty(json: json)
+                let person = try jsonDecoder.decode(Person.self, from: data)
                 completion(person)
             } catch {
                 debugPrint(error.localizedDescription)
