@@ -19,6 +19,7 @@
 		8B9279FD214C2E4D0030F063 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9279FC214C2E4D0030F063 /* BlackBgView.swift */; };
 		8B927A00214C2ED00030F063 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9279FF214C2ED00030F063 /* Constants.swift */; };
 		8B927A03214C363B0030F063 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B927A02214C363B0030F063 /* PersonApi.swift */; };
+		8BE238D9215584EA00D7C444 /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE238D8215584EA00D7C444 /* FadeEnabledBtn.swift */; };
 		8BFD25F821541AB200E693C7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD25F721541AB200E693C7 /* Person.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		8B9279FC214C2E4D0030F063 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		8B9279FF214C2ED00030F063 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B927A02214C363B0030F063 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		8BE238D8215584EA00D7C444 /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
 		8BFD25F721541AB200E693C7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AEE680BFBC0ECB55090B9292 /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		BABE6278141ED84B3BDE48DF /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				8B9279FC214C2E4D0030F063 /* BlackBgView.swift */,
+				8BE238D8215584EA00D7C444 /* FadeEnabledBtn.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE238D9215584EA00D7C444 /* FadeEnabledBtn.swift in Sources */,
 				8BFD25F821541AB200E693C7 /* Person.swift in Sources */,
 				8B9279E2214C241D0030F063 /* SelectPersonVC.swift in Sources */,
 				8B9279E0214C241D0030F063 /* AppDelegate.swift in Sources */,
