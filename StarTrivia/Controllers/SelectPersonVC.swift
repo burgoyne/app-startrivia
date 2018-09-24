@@ -24,16 +24,18 @@ class SelectPersonVC: UIViewController {
     
     //variables
     var personApi = PersonApi()
+    var person: Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     @IBAction func randomClicked(_ sender: Any) {
         let random = Int.random(in: 1 ... 87)
-        
         personApi.getRandomPersonAlamo(id: random) { (person) in
             if let person = person {
                 self.SetupView(person: person)
+                self.person = person
             }
         }
     }
@@ -52,16 +54,14 @@ class SelectPersonVC: UIViewController {
         filmsBtn.isEnabled = !person.filmUrls.isEmpty
     }
     
-    @IBAction func homeworldClicked(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if var destination = segue.destination as? PersonProtocol {
+            destination.person = person
+        }
     }
-    
-    @IBAction func vehiclesClicked(_ sender: Any) {
-    }
-    
-    @IBAction func starshipsClicked(_ sender: Any) {
-    }
-    
-    @IBAction func filmsClicked(_ sender: Any) {
-    }
+}
+
+protocol PersonProtocol {
+    var person: Person! {get set}
 }
 
