@@ -142,19 +142,19 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-H3-aIP">
-                                                <rect key="frame" x="0.0" y="186.66666666666669" width="97.333333333333329" height="27.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="186.66666666666669" width="97.666666666666671" height="27.333333333333343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gender:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wf9-NR-hsl">
-                                                        <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="27.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="27.333333333333332"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="79.670000000000002" id="G4r-PS-oGW"/>
+                                                            <constraint firstAttribute="width" constant="80" id="Jaq-ot-T1V"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EjS-J2-aXr">
-                                                        <rect key="frame" x="84.666666666666671" y="0.0" width="12.666666666666671" height="27.333333333333332"/>
+                                                        <rect key="frame" x="85" y="0.0" width="12.666666666666671" height="27.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>

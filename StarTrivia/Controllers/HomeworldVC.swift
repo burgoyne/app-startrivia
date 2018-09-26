@@ -29,9 +29,9 @@ class HomeworldVC: UIViewController, PersonProtocol {
     }
     
     func setupUI(homeworld: Homeworld) {
-        nameLbl.text = homeworld.name
-        climateLbl.text = homeworld.climate
-        terrainLbl.text = homeworld.terrain
-        populationLbl.text = homeworld.population
+        nameLbl.text = homeworld.name.lowercased()
+        climateLbl.text = homeworld.climate.lowercased()
+        terrainLbl.text = homeworld.terrain.lowercased()
+        populationLbl.text = homeworld.population.lowercased()
     }
 }

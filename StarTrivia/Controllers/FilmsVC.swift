@@ -44,13 +44,13 @@ class FilmsVC: UIViewController, PersonProtocol {
     }
     
     func setupView(film: Film) {
-        titleLbl.text = film.title
-        episodeLbl.text = String(film.episode)
-        directorLbl.text = film.director
-        producerLbl.text = film.producer
-        releasedLbl.text = film.releaseData
+        titleLbl.text = film.title.lowercased()
+        episodeLbl.text = String(film.episode).lowercased()
+        directorLbl.text = film.director.lowercased()
+        producerLbl.text = film.producer.lowercased()
+        releasedLbl.text = film.releaseData.lowercased()
         let stripped = film.crawl.replacingOccurrences(of: "\n", with: " ")
-        crawlLbl.text = stripped.replacingOccurrences(of: "\r", with: "")
+        crawlLbl.text = stripped.replacingOccurrences(of: "\r", with: "").lowercased()
     }
     
     @IBAction func previousClicked(_ sender: Any) {

@@ -41,12 +41,12 @@ class SelectPersonVC: UIViewController {
     }
     
     func SetupView(person: Person) {
-        nameLbl.text = person.name
-        heightLbl.text = person.height
-        massLbl.text = person.mass
-        hairLbl.text = person.hair
-        birthYearLbl.text = person.birthYear
-        genderLbl.text = person.gender
+        nameLbl.text = person.name.lowercased()
+        heightLbl.text = person.height.lowercased()
+        massLbl.text = person.mass.lowercased()
+        hairLbl.text = person.hair.lowercased()
+        birthYearLbl.text = person.birthYear.lowercased()
+        genderLbl.text = person.gender.lowercased()
         
         homeworldBtn.isEnabled = !person.homeworldUrls.isEmpty
         vehiclesBtn.isEnabled = !person.vehicleUrls.isEmpty

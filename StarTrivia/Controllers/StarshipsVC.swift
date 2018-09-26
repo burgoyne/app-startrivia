@@ -46,15 +46,15 @@ class StarshipsVC: UIViewController, PersonProtocol {
     }
     
     func setupView(starship: Starship) {
-        nameLbl.text = starship.name
-        modelLbl.text = starship.model
-        makerLbl.text = starship.manufacturer
-        hyperRatingLbl.text = starship.rating
-        costLbl.text = starship.cost
-        lengthLbl.text = starship.length
-        speedLbl.text = starship.speed
-        crewLbl.text = starship.crew
-        pxLbl.text = starship.passengers
+        nameLbl.text = starship.name.lowercased()
+        modelLbl.text = starship.model.lowercased()
+        makerLbl.text = starship.manufacturer.lowercased()
+        hyperRatingLbl.text = starship.rating.lowercased()
+        costLbl.text = starship.cost.lowercased()
+        lengthLbl.text = starship.length.lowercased()
+        speedLbl.text = starship.speed.lowercased()
+        crewLbl.text = starship.crew.lowercased()
+        pxLbl.text = starship.passengers.lowercased()
     }
     
     @IBAction func previousClicked(_ sender: Any) {

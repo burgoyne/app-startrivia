@@ -45,14 +45,14 @@ class VehiclesVC: UIViewController, PersonProtocol {
     }
     
     func setupView(vehicle: Vehicle) {
-        nameLbl.text = vehicle.name
-        modelLbl.text = vehicle.model
-        makerLbl.text = vehicle.manufacturer
-        costLbl.text = vehicle.cost
-        lengthLbl.text = vehicle.length
-        speedLbl.text = vehicle.speed
-        crewLbl.text = vehicle.crew
-        pxLbl.text = vehicle.passengers
+        nameLbl.text = vehicle.name.lowercased()
+        modelLbl.text = vehicle.model.lowercased()
+        makerLbl.text = vehicle.manufacturer.lowercased()
+        costLbl.text = vehicle.cost.lowercased()
+        lengthLbl.text = vehicle.length.lowercased()
+        speedLbl.text = vehicle.speed.lowercased()
+        crewLbl.text = vehicle.crew.lowercased()
+        pxLbl.text = vehicle.passengers.lowercased()
     }
 
     @IBAction func previousClicked(_ sender: Any) {
